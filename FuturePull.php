@@ -50,17 +50,15 @@ for ($i = 0; $i < $count; $i++){
 
 	/* Show Results */
 	/* if ($TrailStep == "future"){ */ /* Limit Screen (replace 'future' with clicked tag */
-		print "<div id=image>";
+		print "<div>";
 		print "<p>";
-		print "$TrailStep<br>";
-		print "<a href='$PermUrl' target='_blank'>";
+		/* print "$TrailStep<br>"; */
 		print "<img src='";
-		print "$ThumbSrc'></a></p>";
-		print "</div>";
-		print "<div id=text>";
-		print "<h1>$ArticleTitle</h1>";
+		print "$ThumbSrc'></p>";
+		print "<p><h1>$ArticleTitle</h1>";
 		print "<h2>$Keywords</h2>";
 		print "<h3>$ArticleTeaser</h3>";
+		print "<a href='$PermUrl' target='_blank'>See Article</a>";
 		print "</div>";
 	/* } */
 
